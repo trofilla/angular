@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Demonstration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <base href="/" />
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-touch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+    <script data-require="angular-simple-logger@*" data-semver="0.0.2" src="https://rawgit.com/nmccready/angular-simple-logger/master/dist/angular-simple-logger.js"></script>
+    <script data-require="angular-google-maps@*" data-semver="2.0.11" src="http://rawgit.com/angular-ui/angular-google-maps/master/dist/angular-google-maps.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="js/rout.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/marker.js"></script>
+    <script src="js/validation.js"></script>
+
+</head>
+<header>
+    <a href="" class="logo"><img src="images/logo.png" /></a>
+</header>
+
+  <body >
+
+    <div class = "container" id="App1" ng-app="exampleApp" ng-controller="defaultCtrl">
+      <button ng-click="goToView1()">Home</button>
+      <button ng-click="goToView2()">Blog</button>
+      <button ng-click="goToView3()">Features</button>
+      <button ng-click="goToView4()">Contacts</button>
+
+      <div ng-view></div>
+    </div>
+  </body>
+</html>

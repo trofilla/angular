@@ -1,0 +1,26 @@
+[
+  {
+    "_id":"0",
+    "longitude":24.048761,
+    "latitude":49.842457,
+    "name":"My sweet home",
+    "location":"Лисенка, 65",
+    "category":"Accomodation"
+  },
+  {
+    "_id":"1",
+    "longitude":24.026119,
+    "latitude":49.858711,
+    "name":"Комп’ютерна Академія ШАГ",
+    "location":"Замарстинівська, 83"
+
+  },
+  {
+    "_id":"2",
+    "longitude":121.0212325,
+    "latitude":14.5896977,
+    "name":"Mandaluyong",
+    "location":"Mandaluyong, Manila",
+    "category":"Accomodation"
+  }
+]

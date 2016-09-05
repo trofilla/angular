@@ -1,0 +1,13 @@
+  <div ng-controller="markerCtrl">
+    <h3>Contacts</h3>
+  <ui-gmap-google-map
+      center='map.center'
+      zoom='map.zoom'>
+
+    <ui-gmap-markers models="markers" coords="'coords'" idkey="'_id'">
+      <ui-gmap-windows>
+         <div ng-non-bindable>{{name}},  {{location}}</div>
+      </ui-gmap-windows>
+    </ui-gmap-markers>
+   </ui-gmap-google-map>
+  </div>

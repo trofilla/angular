@@ -1,0 +1,27 @@
+[
+
+	{
+		"city": "Lviv",
+		"lat": 49.85,
+		"lng": 24.03,
+		"desc": "my residantion"
+	},
+	{
+		"city": "Kiev",
+		"lat": 50.5,
+		"lng": 30.5,
+		"desc": "the capital of Ukraine"
+	},
+	{
+		"city": "Warsaw",
+		"lat": 52.2,
+		"lng": 21.0,
+		"desc": "the capital of Poland"
+	},
+	{
+		"city": "London",
+		"lat": 51.5,
+		"lng": -0.1,
+		"desc": "the capital of Great Britain"
+	}
+]
